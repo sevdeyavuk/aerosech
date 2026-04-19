@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f5f0;
+  color: #1f2d1f;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #d8f3dc, #f7f5f0);
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 15px 0;
+  color: #4b5d4b;
+}
+
+.buttons button {
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #2d6a4f;
+  color: white;
+}
+
+.buttons .secondary {
+  background: #95d5b2;
+  color: black;
+}
+
+/* STATS */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 50px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* FEATURES */
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 50px;
+}
+
+.feature-card {
+  background: #e9f5ec;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+/* TEAM */
+.team {
+  text-align: center;
+  padding: 60px;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.person {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 200px;
+}
+
+.person span {
+  font-size: 12px;
+  color: gray;
+}
+
+/* CONTACT */
+.contact {
+  padding: 60px;
+  text-align: center;
+}
+
+.contact input,
+.contact textarea {
+  display: block;
+  margin: 10px auto;
+  width: 300px;
+  padding: 10px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  border: none;
+  background: #2d6a4f;
+  color: white;
+  border-radius: 10px;
+}
